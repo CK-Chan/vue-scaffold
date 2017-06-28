@@ -1,7 +1,7 @@
 export default [
   {
     path: '/',
-    component: require('../components/views/Layout'),
+    component: require('components/views/Layout/'),
     children: []
   },
   {

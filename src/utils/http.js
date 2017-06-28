@@ -1,28 +1,19 @@
 import axios from 'axios'
 
-// 通用get方法
-export const getMethod = ({
-  url,
-  timeout
-}) => {
-  let method = 'get'
+// get
+export const getMethod = ({ url, timeout }) => {
+  const method = 'get'
   return axios({ method, url, timeout })
 }
 
-// 通用post方法
-export const postMethod = ({
-  url,
-  data
-}) => {
-  let method = 'post'
+// post
+export const postMethod = ({ url, data }) => {
+  const method = 'post'
   return axios({ method, url, data })
 }
 
-// 通用put方法
-export const putMethod = ({
-  url,
-  data
-}) => {
-  let method = 'put'
+// put
+export const putMethod = ({ url, data }) => {
+  const method = 'put'
   return axios({ method, url, data })
 }
