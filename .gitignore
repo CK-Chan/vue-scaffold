@@ -5,3 +5,5 @@ dist/static/
 dist/index.html
 .idea/
 package-lock.json
+selenium-debug.log
+test/e2e/reports
