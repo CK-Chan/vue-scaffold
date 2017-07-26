@@ -5,7 +5,6 @@ var config = require('../../config')
 module.exports = {
   src_folders: ['test/e2e/specs'],
   output_folder: 'test/e2e/reports',
-  custom_assertions_path: ['test/e2e/custom-assertions'],
 
   selenium: {
     start_process: true,
@@ -30,14 +29,6 @@ module.exports = {
     chrome: {
       desiredCapabilities: {
         browserName: 'chrome',
-        javascriptEnabled: true,
-        acceptSslCerts: true
-      }
-    },
-
-    firefox: {
-      desiredCapabilities: {
-        browserName: 'firefox',
         javascriptEnabled: true,
         acceptSslCerts: true
       }
